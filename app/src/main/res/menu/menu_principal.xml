@@ -1,4 +1,4 @@
-4<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -26,6 +26,11 @@
         android:id="@+id/mSettings"
         android:icon="@drawable/ic_baseline_settings"
         android:title="@string/configura_es"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSair"
+        android:icon="@drawable/ic_baseline_exit_to_app"
+        android:title="@string/sair"
         app:showAsAction="ifRoom" />
 
 </menu>
