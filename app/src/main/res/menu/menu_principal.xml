@@ -1,0 +1,31 @@
+4<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mHelp"
+        android:icon="@drawable/ic_baseline_help"
+        android:title="@string/ajuda"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mFav"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="@string/favorito"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mshared"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="@string/compartilhar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mSettings"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/configura_es"
+        app:showAsAction="ifRoom" />
+
+</menu>
